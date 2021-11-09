@@ -1,0 +1,1 @@
+This project is intended to demonstrate the concepts learned throughout the HTML/CSS portions of the fundamentals course via The Odin Project. No help has been given, just a few reference images.
