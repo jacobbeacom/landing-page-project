@@ -1,0 +1,189 @@
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+.headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    align-self: center;
+    margin-left: 50px;
+}
+
+.header-links {
+    margin-right: 50px;
+}
+
+li {
+    display:inline;
+}
+
+a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+
+}
+
+.mainsection1 {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+    height: 300px;
+    flex: 1 0 auto;
+}
+
+h1 {
+    margin-bottom: -10px;
+    margin-right: 80px;
+
+}
+
+.mainsection1left {
+    flex: 1 0 au;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.signupbutton {
+    background-color: #3882F6;
+    align-self:flex-start;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 8px;
+    width: 100px;
+    font-weight: 900;
+
+}
+
+.mainsection1img {
+    height: 200px;
+    width: 400px;
+    flex: 0 1 auto;
+    margin-right: 50px;
+}
+
+.mainsection2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
+.section2content {
+    display: flex;
+    font-size: 14px;
+    width: 625px;
+}
+
+.section2image1, .section2image2, .section2image3, .section2image4 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center; 
+}
+
+.section2image1, .section2image2, .section2image3, .section2image4 {
+    margin: 10px;
+}
+
+
+.section2content img {
+    height: 50px;
+    width: 50px;
+}
+
+.mainsection3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    background-color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+.testimonialtext {
+    align-self: center;
+    padding: 40px;
+    margin-left: 180px;
+    margin-right: 150px;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.testimonialauthor {
+    width:max-content;
+    display: inline;
+    margin-left: 670px;
+    position: relative;
+    top:-70px;
+    font-weight:bolder;
+}
+
+.mainsection4 {
+    flex-grow: 1;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: #F9FAF8
+}
+
+.signupnow {
+    margin-top: 0px;
+    color: #F9FAF8;
+    margin-bottom: 30px;
+}
+
+.signupbutton2 {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border-radius: 8px; 
+  border-color: white;
+  position: relative;
+  top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 15px;
+    flex: .5;
+}
